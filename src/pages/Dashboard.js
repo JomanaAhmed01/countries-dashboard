@@ -5,6 +5,7 @@ import TableHead from "@material-ui/core/TableHead"
 import TableBody from "@material-ui/core/TableBody"
 import TableCell from "@material-ui/core/TableCell"
 import TableRow from "@material-ui/core/TableRow"
+import Loader from "react-loader-spinner"
 import { TextField } from "@material-ui/core"
 import { Checkbox } from "@material-ui/core"
 import { Button } from "@material-ui/core"
@@ -38,7 +39,17 @@ function Dashboard() {
   }, [])
 
   if (!countriesData) {
-    return <>loading</>
+    return (
+      <LoaderWrapper>
+        <Loader
+          type="Oval"
+          color="#808080"
+          height={100}
+          width={100}
+          timeout={3000} //3 secs
+        />
+      </LoaderWrapper>
+    )
   }
 
   function doNameActions() {
@@ -258,6 +269,12 @@ const FilterButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+`
+
+const LoaderWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
 `
 
 export default Dashboard
