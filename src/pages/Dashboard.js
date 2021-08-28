@@ -5,6 +5,7 @@ import TableHead from "@material-ui/core/TableHead"
 import TableBody from "@material-ui/core/TableBody"
 import TableCell from "@material-ui/core/TableCell"
 import TableRow from "@material-ui/core/TableRow"
+import Loader from "react-loader-spinner"
 import { TextField } from "@material-ui/core"
 import { Checkbox } from "@material-ui/core"
 import { Button } from "@material-ui/core"
@@ -38,7 +39,17 @@ function Dashboard() {
   }, [])
 
   if (!countriesData) {
-    return <>loading</>
+    return (
+      <>
+        <Loader
+          type="Oval"
+          color="#00BFFF"
+          height={100}
+          width={100}
+          timeout={3000} //3 secs
+        />
+      </>
+    )
   }
 
   function doNameActions() {
