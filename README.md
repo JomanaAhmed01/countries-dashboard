@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img title="Outlier" src="https://fullclarity.co.uk/wp-content/uploads/2019/01/react-512.png" alt="React Logo" width="270" />
+  <br>
+   React <br>Countries Dashboard
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p><font size="3">
+  This is a Countries Dashboard Project built using <strong><em>React.JS</em></strong> and <strong><em>Material-UI</em></strong>
+  <br><br> 
+	 This project is about building a dashboard that connects to an open-source API has information about all countries in the world, gets the data from the API, and displays it in a well-formatted table.
 
-## Available Scripts
+Then we should be able to apply 1 level of filter to this data.
 
-In the project directory, you can run:
+First level: Search Filter:<br>
+Where we can search in the countries name or capital or region and display only the countries which have the search term in their name or capital or regions.
 
-### `npm start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Project Walk-Through](#project-walk-through)
+  - [Start Page](#start-page)
+  - [Search Filter](#search-filter)
+  - [Clear Filters](#clear-filters)
+ - [Live Demo](#live-demo)
+- [Technology Used](#technology-used)
+- [How To Use](#how-to-use)
+- [Author](#author)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Project Walk-Through
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ # Start Page
+ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center"><a name="menu"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/66492958/131225825-c7aa7980-d96a-462b-924c-66b23c8d077d.png)
+</div>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ In this page, the filter are set to default state, where all countries are displayed on the screen without any filtration. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ # Search Filter
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+In this page, there are 3 types of filtration 
 
-## Learn More
+***1) Search using Name Filter:***
+The user can type any search term in the search field and all countries which have this search term in its name will display on the screen, the user doesn't need to click anything to search, it's all live search.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ <div align="center"><a name="menu"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/66492958/131226353-617958bb-2c62-4826-833f-f736b643f6c4.png)
+</div>
 
-### Code Splitting
+***1) Search using Capital Filter:***
+The user can type any search term in the search field and all countries which have this search term in its capiatl name will display on the screen, the user doesn't need to click anything to search, it's all live search.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ <div align="center"><a name="menu"></a>
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/66492958/131226397-3e97cebc-9b3a-4abb-9716-7302f17c4d87.png)
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+***1) Search using Region Filter:***
+The user can type any search term in the search field and all countries which have this search term in its regions will display on the screen, the user doesn't need to click anything to search, it's all live search.
 
-### Making a Progressive Web App
+ <div align="center"><a name="menu"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://user-images.githubusercontent.com/66492958/131226429-7e8d4a32-501b-4980-b33f-12da5675b4c7.png)
+</div>
 
-### Advanced Configuration
+ # Clear Filters
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The user can clear all filters and return it to the default state by click on one button which is "Clear Filters Button".
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<div align="center"><a name="menu"></a>
 
-### `npm run build` fails to minify
+![image](https://user-images.githubusercontent.com/66492958/131226465-fb16a649-18ed-4812-9c94-33c2b0a663b2.png)
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Live Demo
+
+***Take a look on the live version here:*** https://countries-dashboard-sigma.vercel.app/ :octocat: :heart_eyes: 
+
+# Technology Used
+
+I have built this project using the following tools & techniques:
+- React.JS
+- React Hooks.
+- useState.
+- Compound Components.
+- JSX.
+- Material UI.
+- VSCode.
+- StandardJS
+
+
+# How To Use
+
+To be able to use this react app locally in a development environment you will need the following:
+
+1) You will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) installed on your computer.
+
+2) Then From your terminal, you should do the following:
+
+```cmd
+# Clone this repository
+git clone https://github.com/AhmedTohamy01/Countries-Dashboard
+
+# Go into the repository
+cd countries-dashboard
+
+# Install dependencies
+npm install 
+
+# Run the app
+npm run dev
+
+```
+
+4) Now you can see the project in your browser. 
+Happy Hacking!
+
+
+# Author
+
+👤 **Jomana Ahmed**
+- Github: https://github.com/JomanaAhmed01
+- Linkedin: https://www.linkedin.com/in/jomana-ahmed/
+- Email: Ojy.ahmed@outlook.com
