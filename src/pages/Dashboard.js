@@ -40,15 +40,15 @@ function Dashboard() {
 
   if (!countriesData) {
     return (
-      <>
+      <LoaderWrapper>
         <Loader
           type="Oval"
-          color="#00BFFF"
+          color="#808080"
           height={100}
           width={100}
           timeout={3000} //3 secs
         />
-      </>
+      </LoaderWrapper>
     )
   }
 
@@ -269,6 +269,12 @@ const FilterButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+`
+
+const LoaderWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
 `
 
 export default Dashboard
