@@ -83,7 +83,7 @@ The user can clear all filters and return it to the default state by click on on
 
 # Live Demo
 
-***Take a look on the live version here:*** https://countries-dashboard-sigma.vercel.app/ :octocat: :heart_eyes: 
+***Take a look on the live version here:*** https://bit.ly/countries-dashboard-live01 :octocat: :heart_eyes: 
 
 # Technology Used
 
