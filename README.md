@@ -11,9 +11,11 @@
 
 Then we should be able to apply 1 level of filter to this data.
 
-First level: Search Filter:<br>
+Search Filter:<br>
 Where we can search in the countries name or capital or region and display only the countries which have the search term in their name or capital or regions.
-
+<br>
+<br>
+<strong>Take a look at the live version here: https://bit.ly/countries-dashboard-live01 :octocat: :heart_eyes:</strong>
 </p>
 
 
@@ -25,9 +27,10 @@ Where we can search in the countries name or capital or region and display only 
   - [Clear Filters](#clear-filters)
  - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
-- [How To Use](#how-to-use)
 - [Author](#author)
-
+- [Show Your Support](#show-your-support)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 # Project Walk-Through
 
@@ -83,51 +86,34 @@ The user can clear all filters and return it to the default state by click on on
 
 # Live Demo
 
-***Take a look on the live version here:*** https://bit.ly/countries-dashboard-live01 :octocat: :heart_eyes: 
+***Take a look at the live version here:*** https://bit.ly/countries-dashboard-live01 :octocat: :heart_eyes: 
 
 # Technology Used
 
 I have built this project using the following tools & techniques:
 - React.JS
 - React Hooks.
-- useState.
 - Compound Components.
 - JSX.
 - Material UI.
 - VSCode.
-- StandardJS
-
-
-# How To Use
-
-To be able to use this react app locally in a development environment you will need the following:
-
-1) You will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) installed on your computer.
-
-2) Then From your terminal, you should do the following:
-
-```cmd
-# Clone this repository
-git clone https://github.com/AhmedTohamy01/Countries-Dashboard
-
-# Go into the repository
-cd countries-dashboard
-
-# Install dependencies
-npm install 
-
-# Run the app
-npm run dev
-
-```
-
-4) Now you can see the project in your browser. 
-Happy Hacking!
 
 
 # Author
 
 👤 **Jomana Ahmed**
 - Github: https://github.com/JomanaAhmed01
-- Linkedin: https://www.linkedin.com/in/jomana-ahmed/
-- Email: Ojy.ahmed@outlook.com
+- Email: ojy.ahmed@outlook.com
+- LinkedIn : https://www.linkedin.com/in/jomana-ahmed/
+
+# Show Your Support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgments
+
+Hat tip to everyone helped me to learn the techniques used in building this project.
+
+# License 
+
+MIT License.
